@@ -70,3 +70,5 @@ print(f'''Location of the {(z := twoxfour()).__len__()} 2x4s:
 {''.join(f'    2x4 {i+1}: \033[1m{z[i]}\033[0m\n' for i in range(len(z)))}''')
 
 print(f"The target point is: \033[1m{end_position()} \033[0m \n")
+
+
